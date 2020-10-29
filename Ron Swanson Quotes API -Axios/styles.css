@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    230deg,
+    #06beb6   0%,
+    #48b1bf 100%
+  );
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 72px;
+  color: #48b1bf;
+}
+
+#quote-text {
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+  font-size: 30px;
+  color: #3bd58d;
+}
+
+#btn {
+  font-family: "Lobster", cursive;
+  background-color: #3bd58d;
+  border: #3bd58d;
+}

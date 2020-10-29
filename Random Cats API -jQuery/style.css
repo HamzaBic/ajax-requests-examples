@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: rgb(104, 235, 231);
+  background: linear-gradient(
+    0deg,
+    rgba(104, 235, 231, 1) 28%,
+    rgba(37, 4, 252, 1) 100%
+  );
+  font-family: "Yatra One", cursive;
+}
+
+h1 {
+  color: bisque;
+  font-size: 48px;
+}
+
+img {
+  max-width: 25vw;
+  height: 40vh;
+}
